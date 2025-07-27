@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shuvoKhasan</title>
+
+    <link rel="stylesheet" href="scroll.css">
+    <script defer src="app.js"></script>
+
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gradient.css">
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <!-- Navbar -->
+  <header class="w-[95%] md:w-[90%] mx-auto py-3 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="/" class="flex items-center space-x-2 text-2xl font-bold text-gray-900">
+      <div class="w-3 h-3 bg-indigo-600 rounded-full"></div>
+      <div class="w-3 h-3 bg-pink-500 rounded-full"></div>
+      <span>Shuvo.</span>
+    </a>
+
+
+    <!-- Navigation Links (Visible on md+) -->
+    <nav class="hidden md:flex space-x-6 text-base font-medium">
+      <a href="#" class="hover:underline cursor-pointer font-bold uppercase tracking-[2px]">About</a>
+      <a href="#" class="hover:underline cursor-pointer font-bold uppercase tracking-[2px]">Works</a>
+      <a href="#" class="hover:underline cursor-pointer font-bold uppercase tracking-[2px]">Services</a>
+      <a href="#" class="hover:underline cursor-pointer font-bold uppercase tracking-[2px]">Contact</a>
+    </nav>
+
+    <!-- Hamburger Icon (Mobile only) -->
+    <div class="md:hidden">
+      <button id="menuBtn" class="hamburger flex flex-col justify-center items-center w-8 h-8 space-y-1 z-40">
+        <span class="line line-1 w-6 h-0.5 bg-black"></span>
+        <span class="line line-2 w-6 h-0.5 bg-black"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden fixed inset-0 bg-white z-50 flex flex-col items-center pt-20 px-6 mt-10 text-xl space-y-6">
+    <!-- Close Button (Top-right) -->
+    <!-- <button id="closeMenu" class="absolute top-4 right-4 text-3xl font-bold text-gray-800 focus:outline-none">&times;</button> -->
+
+    <a href="#" class="hover:underline cursor-pointer">About</a>
+    <a href="#" class="hover:underline cursor-pointer">Works</a>
+    <a href="#" class="hover:underline cursor-pointer">Services</a>
+    <a href="#" class="hover:underline cursor-pointer">Contact</a>
+  </div>
+
+
+  <!-- Hero Section -->
+  <section class="mt-10 px-6 text-center max-md:text-left md:px-16">
+    <h1 class="text-3xl md:text-5xl md:text-center font-extrabold leading-tight mb-4">Hello, my name's Shuvo.<br/>I'm a Programmer.</h1>
+    <p class="text-gray-500 mb-6">I develope visually rich digital experience that are delightful to use.</p>
+
+    <!-- Scroll Animation -->
+    <div class="flex justify-center mb-4">
+      <div class="animate-bounce flex flex-col items-center space-y-1">
+        <!-- <span class="text-gray-600 text-xl">Scroll</span> -->
+        <svg class="w-10 h-10 text-[#aebaed]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </div>
+    </div>
+
+
+  </section>
+
+    <!-- Social Media Button Grid Container -->
+    <div class="flex justify-center px-2 my-10 ">
+    <div class="gradient-anime rounded-2xl w-[95%] md:w-[90%] py-10">
+    
+      <div class="w-full my-10 flex items-center justify-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-[90%] md:w-[60%]">
+
+          <!-- GitHub -->
+          <a href="#" class="flex items-center justify-center h-16 px-4 py-3 bg-gray-800 text-white rounded-2xl w-full hover:bg-gray-700 transition">
+            <i class="fab fa-github mr-2"></i>
+            <span>GitHub</span>
+          </a>
+
+          <!-- X -->
+          <a href="#" class="flex items-center justify-center h-16 px-4 py-3 bg-black text-white rounded-2xl w-full hover:bg-gray-900 transition">
+            <i class="fab fa-x-twitter mr-2"></i>
+            <span>X</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="#" class="flex items-center justify-center h-16 px-4 py-3 bg-gradient-to-r from-pink-500 to-yellow-500 text-white rounded-2xl w-full hover:opacity-90 transition">
+            <i class="fab fa-instagram mr-2"></i>
+            <span>Instagram</span>
+          </a>
+
+          <!-- Facebook -->
+          <a href="#" class="flex items-center justify-center h-16 px-4 py-3 bg-blue-600 text-white rounded-2xl w-full hover:bg-blue-700 transition">
+            <i class="fab fa-facebook-f mr-2"></i>
+            <span>Facebook</span>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+    <!-- Hero cover image -->
+    <div class="flex justify-center items-center px-2">
+      <div
+        class="w-[95%] md:w-[90%]  h-[600px] bg-cover bg-center rounded-2xl"
+        style="background-image: url('hero-cover.png');"
+      >
+        <!-- Optional: Overlay content can go here -->
+      </div>
+    </div>
+
+  <section>
+    <div class="flex items-center justify-center px-4 my-10">
+      <div class="max-w-[550px] text-left">
+        <h2 class="font-bold md:text-xl mb-2 md:mb-4">What I Do?</h2>
+        <p class="text-gray-800 md:text-xl leading-relaxed">
+          My passion for design and creativity has
+          led me to work in various fields, from
+          graphic design and branding to product
+          design and user experience.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex items-center justify-center">
+      <div class="flex items-center w-full gap-4">
+        
+        <!-- Left Line -->
+        <div class="w-full flex-1 h-0.5 bg-[#c9bffe]"></div>
+        
+        <!-- Center Image -->
+        <div class="w-[74px] h-[74px] rounded-full border-2 border-[#7073f7] overflow-hidden flex items-center justify-center">
+          <img src="/ideas/hand.jpg" alt="Avatar" class="w-full h-full object-cover rounded-full" />
+        </div>
+        
+        <!-- Right Line -->
+        <div class="w-full flex-1 h-0.5 bg-[#c9bffe]"></div>
+
+      </div>
+    </div>
+
+    <!-- Services -->
+    <h2 class="font-bold md:text-center text-left mx-4 uppercase my-7 tracking-[1px]">Services I Provide</h2>
+  </section>
+
+  <footer>
+    <div class="my-10"></div>
+  </footer>
+
+  <!-- JS for Hamburger -->
+
+  <script src="app.js"></script>
+  <!-- Font Awesome CDN for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
